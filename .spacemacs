@@ -40,7 +40,7 @@ values."
      ;; ----------------------------------------------------------------
      helm
      auto-completion
-       (haskell :variables haskell-completion-backend 'intero)
+       (haskell :variables haskell-completion-backend 'intero) ;; TODO: replace with 'intero when fixed
      ;; better-defaults
      emacs-lisp
      ;; git
@@ -361,7 +361,7 @@ you should place your code here."
      ("#3C3D37" . 100))))
  '(indent-tabs-mode nil)
  '(magit-diff-use-overlays nil)
- '(monokai-background "#000000")
+ '(monokai-background "#666666")
  '(package-selected-packages
    (quote
     (lsp-haskell company-lsp lsp-mode markdown-mode ht dash-functional yaml-mode ac-ispell helm-company helm-c-yasnippet fuzzy company-statistics company-cabal auto-yasnippet auto-complete intero flycheck hlint hlint-refactor hindent helm-hoogle haskell-snippets yasnippet company-ghci company-ghc ghc company haskell-mode cmm-mode ws-butler winum which-key volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint indent-guide hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump diminish define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line)))
